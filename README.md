@@ -25,14 +25,15 @@ A simple 3D arcade survival game made in Unity for the ESLSCA Game Design and De
 | Space | Start / play again |
 
 ## How to run
-1. Clone or download this repository.
-2. Open the folder in Unity Hub (Unity 6 or 2022.3+, Universal 3D project).
-3. Open `Assets/Scenes/SampleScene` and press **Play**.
-4. Click inside the Game view and press **Space** to start.
+1. Download this repository (**Code > Download ZIP**) and extract it.
+2. In Unity Hub, create a new **Universal 3D** project (Unity 6 or 2022.3+).
+3. Drag the `cavein/CaveIn` folder (the 4 scripts) onto the **Assets** folder in Unity's Project window.
+4. Open `Assets/Scenes/SampleScene` and press **Play**.
+5. Click inside the Game view and press **Space** to start.
 
-The game creates its own scene by code when Play is pressed, so no setup is needed.
+The game creates its own scene by code when Play is pressed, so no other setup is needed.
 
-## Scripts (`Assets/CaveIn`)
+## Scripts (`cavein/CaveIn`)
 | Script | What it does |
 |--------|-------------|
 | `GameManager.cs` | Builds the scene, keeps score, lives and time, greed speed-up, win/lose, restart, on-screen text |
